@@ -39,6 +39,6 @@ fn main() {
         value: 0,
     };
 
-    let map = TestStruct::to_stringmap(test_struct);
+    let map = TestStruct::to_map(test_struct);
 }
 ```
