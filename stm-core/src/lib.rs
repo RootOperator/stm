@@ -105,4 +105,3 @@ pub fn to_map(input_struct: TokenStream) -> TokenStream {
     };
     TokenStream::from(tokens)
 }
-

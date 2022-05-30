@@ -1,5 +1,7 @@
 pub mod value;
 
+extern crate stm_core;
+
 use std::collections::HashMap;
 
 use crate::value::Value;
