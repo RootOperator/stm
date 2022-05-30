@@ -1,6 +1,6 @@
 pub mod value;
 
-extern crate stm_core;
+pub extern crate stm_core;
 
 use std::collections::HashMap;
 
