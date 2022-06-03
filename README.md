@@ -3,7 +3,7 @@
 ```rust
 use std::collections::HashMap;
 use stm::FromMap;
-use stm_core::FromMap;
+use stm::stm_core::FromMap;
 
 #[derive(FromMap, Default)]
 struct TestStruct {
@@ -25,7 +25,7 @@ fn main() {
 
 ```rust
 use stm::ToMap;
-use stm_core::ToMap;
+use stm::stm_core::ToMap;
 
 #[derive(ToMap, Default)]
 struct TestStruct {
